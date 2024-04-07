@@ -21,8 +21,12 @@ jobs:
       - name: Install Maven
         run: sudo apt-get install maven -y
 
+      - name: Print Current Directory
+        run: pwd
+
       - name: Build and Test
         run: mvn clean test
+        working-directory: /home/runner/work/Rest-Assured/RestAssignent 1
 
       - name: Archive Test Reports
         uses: actions/upload-artifact@v2
