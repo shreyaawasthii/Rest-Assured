@@ -26,7 +26,7 @@ jobs:
 
       - name: Build and Test
         run: mvn test -Dtest=CRUDtest -X
-        working-directory: "/home/runner/work/Rest-Assured/RestAssignent 1"
+        working-directory: "/home/runner/work/Rest-Assured/Rest-Assured/RestAssignent 1"
 
       - name: Archive Test Reports
         uses: actions/upload-artifact@v2
