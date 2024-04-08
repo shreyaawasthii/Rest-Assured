@@ -25,11 +25,9 @@ jobs:
         run: pwd
 
       - name: Build and Test
-        run: mvn clean test -X
+        run: mvn test -Dtest=CRUDtest
         working-directory: "/home/runner/work/Rest-Assured/Rest-Assured/RestAssignent 1"
 
-      - name: Run Maven Tests
-        run: mvn test -Dtest=CRUDtest
 
       - name: Archive Test Reports
         uses: actions/upload-artifact@v2
