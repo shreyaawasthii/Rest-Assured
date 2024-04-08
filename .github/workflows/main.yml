@@ -25,7 +25,7 @@ jobs:
         run: pwd
 
       - name: Build and Test
-        run: mvn test -Dtest=CRUDtest -X
+        run: mvn test -Dtest=CRUDTest -X
         working-directory: "/home/runner/work/Rest-Assured/Rest-Assured/RestAssignent 1"
 
       - name: Archive Test Reports
