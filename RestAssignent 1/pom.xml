@@ -105,7 +105,7 @@
                     <testFailureIgnore>false</testFailureIgnore> <!-- Whether to ignore test failures -->
                     <argLine>-Xmx1024m</argLine> <!-- JVM arguments for the forked test execution -->
                     <includes>
-                        <include>RestAssignent 1/src/test/java/test/CRUDTest.java</include> <!-- Include pattern for test classes -->
+                        <include>test/CRUDTest.java</include> <!-- Include pattern for test classes -->
                     </includes>
                     <!-- You can also specify other configurations like excludes, system properties, etc. -->
                 </configuration>
